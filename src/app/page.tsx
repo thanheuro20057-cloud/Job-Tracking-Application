@@ -66,7 +66,7 @@ export default function Home() {
                 </label>
                 <Link
                   className="text-sm font-medium text-foreground hover:underline"
-                  href="#"
+                  href="/password-reset"
                 >
                   Forgot password?
                 </Link>
@@ -100,7 +100,7 @@ export default function Home() {
 
               <p className="text-center text-sm text-muted-foreground">
                 New here?{" "}
-                <Link className="font-medium text-foreground hover:underline" href="#">
+                <Link className="font-medium text-foreground hover:underline" href="/signup">
                   Create an account
                 </Link>
               </p>
