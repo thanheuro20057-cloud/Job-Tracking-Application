@@ -32,7 +32,10 @@ export default function ApplicationDetailsPage() {
           <h2 className="text-lg font-semibold">Timeline</h2>
           <div className="mt-4 space-y-4">
             {timeline.map((item) => (
-              <div key={item.title} className="rounded-2xl border border-border/70 bg-white/80 px-4 py-3">
+              <div
+                key={item.title}
+                className="rounded-2xl border border-border/70 bg-white/80 px-4 py-3"
+              >
                 <div className="flex items-center justify-between">
                   <p className="font-semibold">{item.title}</p>
                   <span className="text-xs text-muted-foreground">{item.date}</span>
